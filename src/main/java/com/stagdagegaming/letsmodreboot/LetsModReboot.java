@@ -1,6 +1,7 @@
 package com.stagdagegaming.letsmodreboot;
 
 import com.stagdagegaming.letsmodreboot.proxy.IProxy;
+import com.stagdagegaming.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -10,10 +11,10 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 /**
  * Created by Stagdage-Desktop on 21/02/2016.
  */
-@Mod(modid = "LetsModReboot",name = "Lets Mod Reboot", version = "1.7.2-1.0")
+@Mod(modid = Reference.MOD_ID,name = Reference.MOD_NAME, version = Reference.VERSION)
 public class LetsModReboot
 {
-    @Mod.Instance("LetsModReboot")
+    @Mod.Instance(Reference.MOD_ID)
     public static LetsModReboot instance;
 
     @SidedProxy(clientSide = "com.stagdagegaming.letsmodreboot.proxy.ClientProxy", serverSide = "com.stagdagegaming.letsmodreboot.prosy.ServerProxy")
