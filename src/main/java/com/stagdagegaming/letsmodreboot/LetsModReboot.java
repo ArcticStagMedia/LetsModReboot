@@ -1,16 +1,17 @@
 package com.stagdagegaming.letsmodreboot;
 
-import com.stagdagegaming.letsmodreboot.handler.ConfigurationHandler;
-import com.stagdagegaming.letsmodreboot.init.ModItems;
-import com.stagdagegaming.letsmodreboot.proxy.IProxy;
-import com.stagdagegaming.letsmodreboot.reference.Reference;
-import com.stagdagegaming.letsmodreboot.utility.LogHelper;
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+        import com.stagdagegaming.letsmodreboot.handler.ConfigurationHandler;
+        import com.stagdagegaming.letsmodreboot.init.ModBlocks;
+        import com.stagdagegaming.letsmodreboot.init.ModItems;
+        import com.stagdagegaming.letsmodreboot.proxy.IProxy;
+        import com.stagdagegaming.letsmodreboot.reference.Reference;
+        import com.stagdagegaming.letsmodreboot.utility.LogHelper;
+        import cpw.mods.fml.common.FMLCommonHandler;
+        import cpw.mods.fml.common.Mod;
+        import cpw.mods.fml.common.SidedProxy;
+        import cpw.mods.fml.common.event.FMLInitializationEvent;
+        import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+        import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 /**
  * Created by Stagdage-Desktop on 21/02/2016.
@@ -31,6 +32,8 @@ public class LetsModReboot
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+
+        ModBlocks.init();
 
         LogHelper.info("Pre Initialization Complete!");
     }
