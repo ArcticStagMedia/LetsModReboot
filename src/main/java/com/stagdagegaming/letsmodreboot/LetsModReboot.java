@@ -1,6 +1,7 @@
 package com.stagdagegaming.letsmodreboot;
 
 import com.stagdagegaming.letsmodreboot.handler.ConfigurationHandler;
+import com.stagdagegaming.letsmodreboot.init.ModItems;
 import com.stagdagegaming.letsmodreboot.proxy.IProxy;
 import com.stagdagegaming.letsmodreboot.reference.Reference;
 import com.stagdagegaming.letsmodreboot.utility.LogHelper;
@@ -14,7 +15,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 /**
  * Created by Stagdage-Desktop on 21/02/2016.
  */
-@Mod(modid = Reference.MOD_ID,name = Reference.MOD_NAME, version = Reference.VERSION,guiFactory = Reference.GUI_FACDTORY_CLASS)
+@Mod(modid = Reference.MOD_ID,name = Reference.MOD_NAME, version = Reference.VERSION,guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsModReboot
 {
     @Mod.Instance(Reference.MOD_ID)
@@ -28,6 +29,9 @@ public class LetsModReboot
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModItems.init();
+
         LogHelper.info("Pre Initialization Complete!");
     }
 
