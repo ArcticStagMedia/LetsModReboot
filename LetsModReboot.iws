@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef6b78e-8203-4e06-8073-d9a0dc21851e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/LetsModReboot.java" afterPath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/LetsModReboot.java" />
-    </list>
+    <list default="true" id="aef6b78e-8203-4e06-8073-d9a0dc21851e" name="Default" comment="" />
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
