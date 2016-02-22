@@ -1,5 +1,6 @@
 package com.stagdagegaming.letsmodreboot.item;
 
+import com.stagdagegaming.letsmodreboot.creativeteb.CreativeTabLMRB;
 import com.stagdagegaming.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -19,6 +20,7 @@ public class ItemLMRB extends Item
         this.maxStackSize = 1;
         //this.setCreativeTab(CreativeTabs.LMRB_TAB);
         this.setNoRepair();
+        this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
     }
 
     @Override
