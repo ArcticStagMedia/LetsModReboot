@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef6b78e-8203-4e06-8073-d9a0dc21851e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/1.12/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LetsModReboot/com/stagdagegaming/letsmodreboot/init/ModBlocks.class" afterPath="$PROJECT_DIR$/out/production/LetsModReboot/com/stagdagegaming/letsmodreboot/init/ModBlocks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LetsModReboot/com/stagdagegaming/letsmodreboot/init/ModItems.class" afterPath="$PROJECT_DIR$/out/production/LetsModReboot/com/stagdagegaming/letsmodreboot/init/ModItems.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iml" afterPath="$PROJECT_DIR$/LetsModReboot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/block/BlockFlag.java" afterPath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/block/BlockFlag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/block/BlockLMRB.java" afterPath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/block/BlockLMRB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/item/ItemLMRB.java" afterPath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/item/ItemLMRB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/item/ItemMapleLeaf.java" afterPath="$PROJECT_DIR$/src/main/java/com/stagdagegaming/letsmodreboot/item/ItemMapleLeaf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" />
-    </list>
+    <list default="true" id="aef6b78e-8203-4e06-8073-d9a0dc21851e" name="Default" comment="" />
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
