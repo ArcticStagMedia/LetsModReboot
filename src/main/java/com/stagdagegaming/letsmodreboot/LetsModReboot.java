@@ -1,9 +1,11 @@
 package com.stagdagegaming.letsmodreboot;
 
+import com.stagdagegaming.letsmodreboot.client.handler.KeyInputEventHandler;
 import com.stagdagegaming.letsmodreboot.handler.ConfigurationHandler;
 import com.stagdagegaming.letsmodreboot.init.ModBlocks;
 import com.stagdagegaming.letsmodreboot.init.ModItems;
 import com.stagdagegaming.letsmodreboot.init.Recipes;
+import com.stagdagegaming.letsmodreboot.proxy.ClientProxy;
 import com.stagdagegaming.letsmodreboot.proxy.IProxy;
 import com.stagdagegaming.letsmodreboot.reference.Reference;
 import com.stagdagegaming.letsmodreboot.utility.LogHelper;
@@ -34,13 +36,17 @@ public class LetsModReboot {
 
         ModBlocks.init();
 
-        Recipes.init();
+        proxy.registerKeyBindings();
 
         LogHelper.info("Pre Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+
+        Recipes.init();
+
         LogHelper.info("Initialization Complete!");
     }
 
